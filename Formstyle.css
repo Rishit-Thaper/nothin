@@ -92,7 +92,7 @@ input[type=number]{
     border-right: 0;
     border-bottom: 1px solid black;
 }
-@media screen and (max-width: 396px) {
+@media screen and (max-width: 480px) {
     .contribute-data{
         display: flex;
         flex-direction: column;
@@ -115,6 +115,7 @@ input[type=number]{
         width: 100%;
         color: rgb(0, 0, 0);
         padding: 2rem;
+        font-size: 1.1rem;
         font-weight: 600;
     }
     input[type=text]{
@@ -143,5 +144,11 @@ input[type=number]{
         outline: 0;
         border-right: 0;
         border-bottom: 1px solid black;
+    }
+    p{
+        font-size: 1rem;
+    }
+    li{
+        font-size: 1rem;
     }
 }
