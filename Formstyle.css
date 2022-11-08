@@ -92,7 +92,7 @@ input[type=number]{
     border-right: 0;
     border-bottom: 1px solid black;
 }
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 396px) {
     .contribute-data{
         display: flex;
         flex-direction: column;
